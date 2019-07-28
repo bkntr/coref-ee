@@ -5,7 +5,7 @@ This repository contains the code for replicating results from
 
 * [Coreference Resolution with Entity Equalization](https://www.aclweb.org/anthology/P19-1066)
 * In ACL 2019
-* Our baseline model is from the paper [Higher-order Coreference Resolution with Coarse-to-fine Inference](https://arxiv.org/abs/1804.05392)
+* The baseline model is from the paper [Higher-order Coreference Resolution with Coarse-to-fine Inference](https://arxiv.org/abs/1804.05392)
 * Code for baseline model: [https://github.com/kentonl/e2e-coref](https://github.com/kentonl/e2e-coref)
 
 ## Getting Started
