@@ -33,6 +33,7 @@ if __name__ == "__main__":
 
   with tf.Session() as session:
     session.run(tf.global_variables_initializer())
+    model.start_enqueue_thread(session)
     accumulated_loss = 0.0
 
     ckpt = tf.train.get_checkpoint_state(log_dir)

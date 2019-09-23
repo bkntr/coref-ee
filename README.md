@@ -15,8 +15,7 @@ This repository contains the code for replicating results from
   * Move the downloaded file to the root of the repo and extract: `tar -xzvf e2e-coref.tgz`
 * Download GloVe embeddings and build custom kernels by running `setup_all.sh`.
   * There are 3 platform-dependent ways to build custom TensorFlow kernels. Please comment/uncomment the appropriate lines in the script.
-* Extract BERT features by running `extract_bert_features.sh`
-* To train your own models, run `setup_training.sh`
+* To train your own models, run `setup_training.sh`and `extract_bert_features.sh`
   * This assumes access to OntoNotes 5.0. Please edit the `ontonotes_path` variable.
 
 ## Training Instructions
