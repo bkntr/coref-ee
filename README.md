@@ -11,8 +11,6 @@ This repository contains the code for replicating results from
 ## Getting Started
 
 * Install python (either 2 or 3) requirements: `pip install -r requirements.txt`
-* Download pretrained models at https://drive.google.com/file/d/1fkifqZzdzsOEo0DXMzCFjiNXqsKG_cHi
-  * Move the downloaded file to the root of the repo and extract: `tar -xzvf e2e-coref.tgz`
 * Download GloVe embeddings and build custom kernels by running `setup_all.sh`.
   * There are 3 platform-dependent ways to build custom TensorFlow kernels. Please comment/uncomment the appropriate lines in the script.
 * To train your own models, run `setup_training.sh`and `extract_bert_features.sh`
