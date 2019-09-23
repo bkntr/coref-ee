@@ -1,4 +1,4 @@
-# Higher-order Coreference Resolution with Coarse-to-fine Inference
+# Coreference Resolution with Entity Equalization
 
 ## Introduction
 This repository contains the code for replicating results from
