@@ -1,5 +1,5 @@
 h5py==2.8.0
-nltk==3.4
+nltk==3.4.5
 numpy==1.14.5
 pyhocon==0.3.48
 tensorflow-gpu==1.10.1
